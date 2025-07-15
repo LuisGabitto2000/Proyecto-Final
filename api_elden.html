@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elden Build</title>
+  <link rel="stylesheet" href="api_elden_css.css">
+</head>
+<body>
+
+  <main>
+      <section>   
+    <h2 class="titulo" id="titulo_favs">Favoritos</h2>
+    <div id="contenedor-armas"></div>
+
+    <h2 class="titulo2">Mi Build</h2>
+    <ul id="wish-list"></ul>
+    <div id="seccion_favs" class="seccion-favs" style="display: none;">
+      <div class="flex-favs">
+        <div class="fav-left">
+          <div class="icono-container" onclick="eliminarTodoFavoritos()">
+            <div class="icono-del"></div>
+            <div class="titulo2">Cantidad Favoritos:</div>
+            <div id="item_cantidad">0</div>
+            <button id="delete_all">Eliminar Todo</button>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div id="contenedor-favoritos" class="contenedor-favoritos"></div>
+    </div>
+  </section>
+
+  <section>
+    <h1 class="titulo">Armas Cuerpo a Cuerpo</h1>
+    <div class="contenedor-melee" id="contenedor-melee"></div>
+    <h2 class="titulo">Magia y Encantamientos</h2>
+    <div class="contenedor-magias" id="contenedor-magias"></div>
+  </section>
+  </main>
+  <script src="api_elden2.js"></script>
+</body>
+</html>

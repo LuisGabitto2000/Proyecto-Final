@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&family=Anton&family=Cinzel:wght@400..900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&family=Anton&family=Cinzel:wght@400..900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Tagesschrift&display=swap');
+
+body {
+  background-image: url(imgprojecto/phone2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed; 
+      font-family: Arial, sans-serif;
+      color: #eee;
+      padding: 20px;
+    }
+
+.titulo {
+  color:#e2d6b6;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: left;
+  font-size: 50px;
+  font-family: Tagesschrift, Verdana, Tahoma, sans-serif;
+}
+
+.titulo2 {
+  color:#e2d6b6;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 30px;
+  text-align: left;
+  font-family: Tagesschrift, Verdana, Tahoma, sans-serif;
+}
+
+    .contenedor-melee {
+      justify-content: center;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+
+     .contenedor-magias {
+      justify-content: center;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .card {
+      background: #222;
+      border: 1px solid #333;
+      border-radius: 10px;
+      padding: 15px;
+      width: 300px;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+      font-family: Merriweather, Verdana, Tahoma, sans-serif;
+      color: #e2d6b6;
+    }
+
+    .card img {
+      max-width: 100%;
+      border-radius: 5px;
+    }
+
+    .card h2 {
+      margin: 10px 0 5px;
+    }
+
+    .card p {
+      font-size: 0.9em;
+    }
+
+
+.card button {
+  margin-top: 75px;
+  margin-left: 70px;
+  background:#4b3d2a;
+  color: #e2d6b6;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.contenedor-favoritos {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 32px;
+}
+.card-fav {
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 32px;
+  background-color: #333;
+  border: 2px solid black;
+  border-radius: 8px;
+  overflow-wrap: break-word;
+  padding: 12px;
+}
+
+#delete_all {
+  background:#4b3d2a;
+  color: #e2d6b6;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#item_cantidad {
+  font-size: 25px;
+  color: #e2d6b6;
+  font-family: Tagesschrift, Verdana, Tahoma, sans-serif;
+  margin-bottom: 25px;
+  
+}

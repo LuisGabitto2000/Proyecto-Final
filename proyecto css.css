@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&family=Anton&family=Cinzel:wght@400..900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&family=Anton&family=Cinzel:wght@400..900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Tagesschrift&display=swap');
+
+
+header {background-color: black;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-family: Merriweather, Verdana, Tahoma, sans-serif;
+} 
+
+
+header a {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  font-size: 20px;
+  text-decoration: none;
+  color: #b2a66c;
+}
+body {
+    background-color: #e2d6b6;
+    background-image: url(imgprojecto/phone.jpg);
+    background-position: center;
+    background-size:cover;
+     background-attachment: fixed; 
+  }
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+
+
+@media only screen and (min-width:400px) {
+  header {
+  background-color:black;
+    font-size: 4vw;
+    text-align: center;
+    font-family: Cinzel, Verdana, Tahoma, sans-serif;
+    }
+}
+
+.texto-inicio{
+  background-image: url(imgprojecto/eldentree.jpeg);
+  background-size: cover;
+  background-position:center;
+  color:white;
+    font-family: Cinzel, Verdana, Tahoma, sans-serif;
+    padding: 10%;
+    text-align: left;
+    font-size: large;
+}
+
+
+.tit-arma {
+  color:#e2d6b6;
+  margin-top: 15px;
+  margin-bottom: 15px;
+    text-align: center;
+    font-size:xx-large;
+    font-family: Tagesschrift, Verdana, Tahoma, sans-serif;
+}
+
+
+.contenedor-flex {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-family: Merriweather, Verdana, Tahoma, sans-serif;
+} 
+
+.contenedor-flex2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    font-family: Cinzel, Verdana, Tahoma, sans-serif;
+
+} 
+.boton-info {
+  background-color:#4b3d2a;
+  color: white;
+  padding: 1%;
+  border-radius: 5px;
+  border-color: black;
+
+} 
+.nombre {
+  font-family: Tagesschrift, Verdana, Tahoma, sans-serif;
+
+} 
+
+.item {
+    flex-basis: 18rem;
+    border: 2px solid black; 
+    background-color:#b2a66c;
+    padding: 1%;
+    text-align: left;
+    margin-right: 2%;
+    margin-left: 2%
+
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+.tit-form {
+  color: #e2d6b6;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+padding: 0.5%;
+font-size: xx-large;
+font-family: Tagesschrift, Verdana, Tahoma, sans-serif;
+}
+
+.formulario {
+  border: 2px solid black;
+  background-color: #b2a66c;
+  color: #4b3d2a;
+  border-radius: 10px;
+  padding: 2%;
+  text-align: center;
+  font-size:large;
+  font-family: Tagesschrift, Verdana, Tahoma, sans-serif;
+}
+
+.boton {
+  background-color:#4b3d2a;
+  color: white;
+  padding: 0.5%;
+  border-radius: 5px;
+  border-color: black;
+
+} 
+
+
+.footer-info {
+  background-color:black;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+  align-items: center;
+}
+.footer-info a {
+  color: white;
+}
+
+.mail {
+  font-size: large;
+  
+}
